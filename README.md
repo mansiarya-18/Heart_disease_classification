@@ -1,6 +1,6 @@
-# vortextech-aiml-week2
+# Heart Disease Classification
 
-Week 2 project for the Vortex Tech AI & ML Internship Track — building a binary classification model.
+Building a binary classification model.
 
 ## What this is
 
@@ -16,8 +16,7 @@ Download the CSV and place it in this repo's root folder as `heart_disease.csv` 
 
 1. Clone this repo:
    ```bash
-   git clone https://github.com/<your-username>/vortextech-aiml-week2.git
-   cd vortextech-aiml-week2
+   git clone https://github.com/<your-username>/
    ```
 2. Install dependencies:
    ```bash
@@ -26,7 +25,7 @@ Download the CSV and place it in this repo's root folder as `heart_disease.csv` 
 3. Download the dataset from Kaggle and place `heart_disease.csv` in this folder.
 4. Launch Jupyter and run the notebook top to bottom:
    ```bash
-   jupyter notebook week2_heart_disease_classification.ipynb
+   jupyter notebook heart_disease_classification.ipynb
    ```
 5. Check `df.columns` after loading — if the target column isn't named `heart_disease` in your copy, update `TARGET_COL` in the "Identify target and feature columns" cell.
 
@@ -44,6 +43,3 @@ Download the CSV and place it in this repo's root folder as `heart_disease.csv` 
 
 See the "Model Performance Summary" markdown cell in the notebook for accuracy/F1 scores and interpretation, filled in after running.
 
-## Author
-
-Vortex Tech AI & ML Internship — Week 2 submission.
